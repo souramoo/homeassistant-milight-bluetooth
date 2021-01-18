@@ -1,5 +1,7 @@
 # homeassistant-milight-bluetooth
 
+For underlying implementation details see https://github.com/souramoo/ReverseEngineeredMiLightBluetooth
+
 ## Usage
 
 Get this into your custom_components folder:
@@ -13,9 +15,9 @@ Then include in your configuration.yaml
 light:
   - platform: milight_bluetooth
     devices:
-      name: "Bedroom Light"
-      host: "hci0"
-      mac: "xx:xx:xx:xx:xx:xx"
+      name: bedroom
+      host: hci0
+      mac: xx:xx:xx:xx:xx:xx
       id1: 10
       id2: 12
 ```
