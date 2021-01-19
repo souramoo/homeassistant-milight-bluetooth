@@ -15,9 +15,10 @@ Then include in your configuration.yaml
 light:
   - platform: milight_bluetooth
     devices:
-      name: bedroom
-      host: hci0
-      mac: xx:xx:xx:xx:xx:xx
-      id1: 10
-      id2: 12
+      bedroom:
+        name: bedroom
+        host: hci0
+        mac: xx:xx:xx:xx:xx:xx
+        id1: 10
+        id2: 12
 ```
