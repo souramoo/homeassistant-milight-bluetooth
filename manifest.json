@@ -3,6 +3,7 @@
   "name": "MiLight Bluetooth",
   "documentation": "https://github.com/souramoo/homeassistant-milight-bluetooth",
   "requirements": ["pygatt[GATTTOOL]==4.0.5"],
-  "codeowners": []
+  "codeowners": [],
+  "version": "1.0"
 }
 
